@@ -1,0 +1,27 @@
+//======================================================================================================================================================================
+login-matanym
+-Name:Matan Yamin
+-ID:311544407
+-Ex3-Programming an HTTP Proxy Server
+-Files:
+    311544407_proxyServer.c:an implementation of a proxy server functions 
+    311544407_README.txt:a brief description of what the folder contains
+    311544407_threadpool.c
+//======================================================================================================================================================================
+/*Description:
+    Name:Matan Yamin,ID:311544407,email:yamin2211@gmail.com
+    Program Description:An implemention of a proxy server that acts an an intermediary for requests from clients seeking resources from other servers
+*/
+//======================================================================================================================================================================
+//COMPILE
+-How to compile?
+-in visual studio:
+"Run build task"
+-or simply type make(a make file is required).
+-Another Method:
+In Linux's terminal type:
+gcc -ggdb3 -pthread threadpool.c proxyServer.c	threadpool.h  -Wall -o ex3
+//=======================================================================================================================================================================
+//Use valgrind to check for memory leaks:
+valgrind --leak -check=full ./client
+//======================================================================================================================================================================
